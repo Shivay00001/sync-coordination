@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "sync-coordination"
+version = "1.0.0"
+description = "Sync coordination layer using Merkle DAG, event sourcing, and CRDTs"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Shivay Singh", email = "shivaysinghrajputofficial@gmail.com"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Distributed Computing",
+    "Topic :: Software Development :: Libraries",
+]
+keywords = ["sync", "coordination", "crdt", "distributed", "vector-clock", "event-sourcing"]
+
+[project.urls]
+Homepage = "https://github.com/Shivay00001/sync-coordination"
+Repository = "https://github.com/Shivay00001/sync-coordination"
+
+[tool.setuptools]
+py-modules = ["sync_coordination"]
