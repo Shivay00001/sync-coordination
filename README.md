@@ -1,5 +1,7 @@
 # Sync Coordination Layer
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 A Python sync coordination engine that orchestrates synchronization between distributed nodes using vector clocks, operation logging, and conflict resolution with last-write-wins semantics.
 
 ## Features
